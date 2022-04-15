@@ -1,0 +1,18 @@
+{
+  "name": "my_food_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^3.7.1",
+    "parcel": "^2.0.0-rc.0",
+    "snackbar": "^1.1.0"
+  }
+}

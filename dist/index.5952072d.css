@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: oldlace;
+}
+
+#myChart {
+  margin-top: 2rem;
+  width: 40vw;
+  height: 40vh;
+}
+
+.mainBody {
+  margin: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+form {
+  margin-top: 2rem;
+  width: 24rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.labels {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+
+.labels label {
+  margin: 0.5rem;
+}
+
+.selections {
+  display: flex;
+  flex-direction: column;
+}
+
+.selections * {
+  margin: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border-width: thin;
+  width: 12rem;
+}
+
+.selections input {
+  text-align: right;
+}
+
+.addFood {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  width: 15rem;
+  height: 4rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border-style: groove;
+  border-width: medium;
+  background-color: burlywood;
+  box-shadow: 3px 3px 5px rgb(74, 74, 74), -2px 2px 5px rgb(74, 74, 74);
+  transition: 0.2s;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.calorieSum {
+  margin-top: 4rem;
+  height: 6rem;
+  width: 40rem;
+  background-color: rgb(208, 14, 0);
+  font-size: 2rem;
+  border-radius: 5px;
+  border-color: rgb(240, 94, 126);
+  border-style: solid;
+  border-width: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foodLog {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  gap: 1rem;
+}
+
+.sampleItem {
+  margin: 1rem;
+  width: 18rem;
+  height: 10rem;
+  padding: 1rem;
+  background-color: rgb(242, 188, 51);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(164, 122, 59);
+  border-width: medium;
+}
+
+.sampleItem h3 {
+  margin: 0.5rem;
+}
+
+.healthInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.healthInfo p {
+  padding: 0 1rem 0.2rem;
+}
+
+.snackbar{display:inline-block;position:fixed;background:#323232;color:#f1f1f1;min-height:50px;min-width:290px;padding:16px 24px 12px;box-sizing:border-box;box-shadow:0 2px 5px 0 rgba(0,0,0,.26);border-radius:2px;bottom:1rem;left:1rem;font-size:90%;-webkit-transition:visibility .3s,-webkit-transform .3s;transition:visibility .3s,-webkit-transform .3s;transition:visibility .3s,transform .3s;transition:visibility .3s,transform .3s,-webkit-transform .3s;-webkit-transform:translateY(100px);transform:translateY(100px);visibility:hidden;will-change:transform}.snackbar--visible{visibility:visible;-webkit-transform:none;transform:none}
+/*# sourceMappingURL=index.5952072d.css.map */
