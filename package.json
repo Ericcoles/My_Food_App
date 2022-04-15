@@ -1,7 +1,6 @@
 {
   "name": "my_food_app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,5 +13,15 @@
     "chart.js": "^3.7.1",
     "parcel": "^2.0.0-rc.0",
     "snackbar": "^1.1.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ericcoles/My_Food_App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ericcoles/My_Food_App/issues"
+  },
+  "homepage": "https://github.com/Ericcoles/My_Food_App#readme",
+  "description": ""
 }

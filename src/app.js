@@ -65,11 +65,11 @@ const postInfo = (carbs, fat, protein, foodInput) => {
     },
   };
 
-  return API.post("ColesFoodApp3", body);
+  return API.post("ColesFoodApp31", body);
 };
 
 const foodInfo = () => {
-  API.get("ColesFoodApp3").then((data) => {
+  API.get("ColesFoodApp31").then((data) => {
     let totalCarbs = 0;
     let totalFat = 0;
     let totalProtein = 0;
